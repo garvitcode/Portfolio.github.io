@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>My Website</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1>Port <span>folio</span></h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#hero" data-after="Home">Home</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="#projects" data-after="Projects">Projects</a></li>
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
+
+
+    <!-- Hero Section  -->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Hello, <span></span></h1>
+                <h1>My Name is <span></span></h1>
+                <h1>Garvit <span></span></h1>
+                <a href="GarvitPachauri_Resume.pdf" download type="button" class="cta">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./img/img-5.png" alt="img">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title" style="margin-bottom: 4rem;">About <span>me</span></h1>
+                <h2>Software Developer</h2>
+                <p>I am a hard-working and dedicated individual who is looking for a position where I can contribute her
+                    knowledge and expertise.Have a strong work ethic and is always looking for ways to learn and grow.
+                    I am looking to be a productive employee who consistently exceeds expectations.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Eduaction</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C++ Programming</span><br>Intermediate</li>
+                        <li><span>HTML</span><br>Intermediate</li>
+                        <li><span>CSS</span><br>Intermediate</li>
+                        <li><span>Python</span><br>Beginner</li>
+                        <li><span>JavaScript</span><br>Beginner</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>B.Tech(CSE)</li>
+                        <li><span>2018</span><br>Class-XII</li>
+                        <li><span>2016</span><br>Class-X</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title" style="margin-bottom: 4rem;">Recent <span>Projects</span></h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 1</h1>
+                        <h2>Translator</h2>
+                        <p>I worked on it by the help of my python skills. It is a gui based
+                            project built with the help of tkinter python which translate
+                            English into Hindi and vice versa with the help of internet
+                            <br><span>Jan 2021 - Apr 2021</span>
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/img-1.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 2</h1>
+                        <h2>Coding is Love</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum
+                            impedit unde
+                            rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque
+                            libero non sunt
+                            harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/img-1.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 3</h1>
+                        <h2>Coding is Love</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum
+                            impedit unde
+                            rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque
+                            libero non sunt
+                            harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/img-1.png" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact container">
+            <div>
+                <h1 class="section-title" style="margin-bottom: 4rem;">Contact <span>info</span></h1>
+            </div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+91 99173 84628</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>pachaurigarvit@gmail.com</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+                    <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>Aligarh, Uttar Pradesh, India</h2>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>G</span>arvit <span>P</span>achauri</h1>
+                <br>
+            </div>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="https://linkedin.com"><img src="./img/linkedin.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://instagram.com"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://github.com"><img src="./img/github.png" alt="img" /></a>
+                </div>
+            </div>
+            <p>Copyright © 2022 Garvit. All rights reserved</p>
+        </div>
+    </section>
+
+    <!-- End Footer -->
+
+    <script src="./app2.js"></script>
+</body>
+
+</html>
