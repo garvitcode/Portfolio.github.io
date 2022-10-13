@@ -771,9 +771,7 @@ p {
 		min-width: 20vh;
 	}
 
-	#contact .contact.container{
-		margin-right: 0px;
-	}
+	
 
 	#contact .contact-items {
 		width: 100%;
@@ -839,5 +837,9 @@ p {
 	/* End header */
 }
 
-
+@media (max-width: 786px) {
+	#contact .contact.container{
+		margin-right: 0px;
+	}
+}
 /* End  Media Query For Desktop */
